@@ -4,3 +4,11 @@ body{
     color: blueviolet;
     font-size: 15px;
 }
+
+.hero{
+    background-image: url('../assets/react.png');
+    height: 200px;
+    width: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
