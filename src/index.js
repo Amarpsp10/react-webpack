@@ -3,3 +3,5 @@ const object = {
     key2: 'value2'
 }
 console.log(object)
+
+console.log({ ...object, 'keyNew': "new value" })
