@@ -1,7 +1,4 @@
-const object = {
-    key1: 'value1',
-    key2: 'value2'
-}
-console.log(object)
+import { render } from 'react-dom'
+import App from './App'
 
-console.log({ ...object, 'keyNew': "new value" })
+render(<App />, document.getElementById('root'))
